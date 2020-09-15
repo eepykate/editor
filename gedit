@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sleep 6
+exec kitty nvim "$@"

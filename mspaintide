@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sleep 5
+
+echo "MS Paint IDE"
+exec st -e nvim "$@"
